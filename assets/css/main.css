@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #5769ce;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #5769ce !important;
 			text-decoration: none;
 		}
 
@@ -1849,7 +1849,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #5769ce;
 		}
 
 	select {
@@ -1949,7 +1949,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #5769ce;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2200,8 +2200,9 @@ input, select, textarea {
 	ul.labeled-icons {
 		list-style: none;
 		padding: 0;
-		display: flex;
-		justify-content: space-between;
+		/* display: flex;
+		justify-content: space-between; */
+		display: inline-block;
 	}
 
 		ul.labeled-icons li {
@@ -2449,8 +2450,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5769ce;
+			color: #5769ce !important;
 		}
 
 		input[type="submit"]:active,
@@ -2458,8 +2459,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5769ce;
+			color: #5769ce !important;
 		}
 
 		input[type="submit"].icon,
@@ -2502,8 +2503,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #5769ce;
+			border-color: #5769ce;
 			color: #ffffff !important;
 		}
 
